@@ -104,7 +104,7 @@ li {
     
     position: absolute;
     top: 1%;
-    left: 42%;
+    left: 43%;
     mix-blend-mode: multiply;
 }
 
@@ -274,7 +274,7 @@ footer {
 
 .media {
     display: flex;
-    width: 19%;
+    width: 15%;
    justify-content: space-between;
 
 }
