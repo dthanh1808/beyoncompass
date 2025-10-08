@@ -25,7 +25,7 @@ body {
 
     position: absolute;
     left: -4%;
-    top: 80%;
+    top: 75%;
     width: 110px;
     height: 110px;
     border: 25px solid rgba(237, 239, 252, 1);
@@ -119,7 +119,7 @@ li {
     width: 100%;
     height: fit-content;
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
 
 }
 
@@ -176,11 +176,11 @@ button {
     height: 120px; */
     position: absolute;
     top: 69%;
-    left: 47%;
+    left: 45%;
 }
 
 .img_big {
-    width: 60%;
+    width: 55%;
     height: 300px;
     border-radius: 12px;
     margin-top: 10%;
@@ -190,7 +190,7 @@ button {
 }
 
 .img_small {
-    width: 20%;
+    width: 15%;
     height: 200px;
     border-radius: 12px;
     border: 2px solid #fff;
