@@ -160,9 +160,9 @@ li {
 
 
 .box2 {
-    height: fit-content;
-    padding: 80px;
-    background-color: white;
+    padding: 80px 80px 50px 80px;
+    /* display: flex; */
+
 
 }
 
@@ -209,7 +209,7 @@ li {
 .box_add{
     display: flex;
     justify-content: flex-end;
-    margin: 0 50px 30px 50px;
+    margin-top: 50px;
 
 }
 
