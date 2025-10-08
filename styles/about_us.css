@@ -26,6 +26,8 @@ header {
     background-image: url("../img/bg_aboutus.jpg");
     background-repeat: no-repeat;
     background-position: center;
+    object-position: center;
+    object-fit: cover;
     background-size: cover;
 
 }
@@ -35,7 +37,7 @@ header {
     justify-content: space-between;
     display: flex;
     position: fixed;
-    padding: 0 5% 0 5%;
+    padding: 0px 80px 0px 80px;
     top: 0;
     left: 0;
     width: 100%;
@@ -52,11 +54,11 @@ header {
     color: rgba(42, 54, 124, 1);
 
 }
-a {
-  text-decoration: none; 
-  color: rgba(102, 102, 102, 1);         
-}
 
+a {
+    text-decoration: none;
+    color: rgba(102, 102, 102, 1);
+}
 
 .list {
     margin: 0;
@@ -68,34 +70,33 @@ ul {
     width: 100%;
     display: flex;
     margin: 0;
+
+
+
 }
 
 li {
     font-family: 'Roboto', sans-serif;
     padding: 18px 23px 18px 23px;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: bold;
     list-style-type: none;
     color: rgba(102, 102, 102, 1);
 }
 
+
 .container {
     width: 100%;
-    height: 85%;
+    height: fit-content;
     display: flex;
     background-color: rgba(235, 237, 238, 1);
 
 }
 
 .circle {
-    width: 120px;
-    height: 120px;
-    border-radius: 50%;
-    background-image: radial-gradient(rgba(136, 150, 236, 1) 2px, transparent 2px);
-    background-size: 20px 20px;
     position: absolute;
-    top: 60%;
-    left: 2%;
+    top: 75%;
+    left: 1%;
 }
 
 .box1{
@@ -116,6 +117,8 @@ li {
     height: 50%;
    margin: 5px 0 5px 0;
     border-radius: 16px;
+    object-fit: cover;
+    background-size: cover;
     border: 0;
 }
 
@@ -125,6 +128,8 @@ li {
     border-radius: 16px;
     border: 0;
     margin: 5px 5px 0 0;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .img3{
@@ -133,6 +138,8 @@ li {
    margin: 5px 0 0 5px;
     border-radius: 16px;
     border: 0;
+    object-fit: cover;
+    background-size: cover;
 }
 
 .box2{
@@ -153,8 +160,7 @@ li {
 
 h1{
     font-weight: bold;
-    font-size: 40px;
-    
+    font-size: 48px;
     margin: 8px 0 8px 0 ;
     color: rgba(42, 54, 124, 1);
 }
@@ -162,11 +168,11 @@ h1{
 h2{
    color: rgba(102, 102, 102, 1);
    margin: 0;
-   font-size: 26px;
+   font-size: 32px;
 }
 
 .title p{
-    font-size: 14px;
+    font-size: 20px;
     color: rgba(102, 102, 102, 1);
     font-weight: 50;
 }
@@ -174,7 +180,7 @@ h2{
 button{
     font-weight: bold;
     font-size: 16px;
-    padding: 12px;
+    padding: 16px;
     background-color: rgba(77, 99, 226, 1);
     border-radius: 20px;
     border: 0;
