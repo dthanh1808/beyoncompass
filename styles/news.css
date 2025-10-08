@@ -102,7 +102,7 @@ li {
 .mix_hxg{
     
     position: absolute;
-    top: 11%;
+    top: 14%;
     left: 45%;
     mix-blend-mode: multiply;
 }
@@ -225,7 +225,7 @@ li {
 }
 
 .list_blog2 .item .title p {
-    font-size: 18px;
+    font-size: 16px;
     color: rgba(102, 102, 102, 1);
 
 }
