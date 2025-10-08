@@ -175,12 +175,12 @@ button {
     /* width: 120px;
     height: 120px; */
     position: absolute;
-    top: 69%;
+    top: 67%;
     left: 45%;
 }
 
 .img_big {
-    width: 55%;
+    width: 52%;
     height: 300px;
     border-radius: 12px;
     margin-top: 10%;
@@ -190,7 +190,7 @@ button {
 }
 
 .img_small {
-    width: 15%;
+    width: 12%;
     height: 200px;
     border-radius: 12px;
     border: 2px solid #fff;
