@@ -29,7 +29,7 @@ header {
 
 }
 
-.bg{
+.bg {
     width: 100%;
     margin-top: 80px;
     background-size: cover;
@@ -47,7 +47,7 @@ header {
     justify-content: space-between;
     display: flex;
     position: fixed;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 104px 0px 104px;
     top: 0;
     left: 0;
     z-index: 5;
@@ -60,7 +60,7 @@ header {
     width: fit-content;
     font-weight: 400px;
     display: flex;
-    
+
     align-items: center;
     font-family: 'Righteous', sans-serif;
     font-size: 24px;
@@ -103,37 +103,37 @@ li {
 
 .container {
     background-color: white;
-   
+
 
 
 }
 
-.mix_hxg{
-    
+.mix_hxg {
+
     position: absolute;
     top: 14%;
     left: 45%;
     mix-blend-mode: multiply;
 }
 
-.hxg_big{
+.hxg_big {
     position: absolute;
     bottom: -2%;
     left: 2%;
 
 }
 
-.hxg_small{
+.hxg_small {
     position: absolute;
     top: 53%;
     right: 6%;
 }
 
-.hxg_border{
+.hxg_border {
     position: absolute;
     top: 0%;
     right: 2%;
-    
+
 }
 
 
@@ -167,7 +167,7 @@ li {
 
 .box2 {
     margin-top: 60px;
-    padding: 0 104px 0 104px ;
+    padding: 0 104px 0 104px;
     /* display: flex; */
 
 
@@ -188,7 +188,6 @@ li {
     width: 604.5px;
     height: fit-content;
     padding: 32px
-
 }
 
 
@@ -196,7 +195,7 @@ li {
 
 .blog1 .picture {
     width: fit-content
-    /* height: 100%; */
+        /* height: 100%; */
 }
 
 .blog1 .picture img {
@@ -210,16 +209,17 @@ li {
 .blog2 {
     margin-top: 60px;
     height: fit-content;
-    
+
 
 }
 
 .list_blog2 {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 32px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+    row-gap: 32px;
     height: fit-content;
 
 }
@@ -254,7 +254,7 @@ li {
 .blog3 {
     display: flex;
     justify-content: flex-end;
-    margin: 60px 0 60px 0 ;
+    margin: 60px 0 60px 0;
 
 }
 
@@ -291,14 +291,14 @@ li {
 /* --------------------FOOTER--------------- */
 footer {
     height: fit-content;
- 
+
     color: white;
 }
 
 .div1 {
     height: fit-content;
     background-color: rgba(55, 70, 160, 1);
-    padding: 80px;
+    padding: 104px;
 }
 
 
@@ -316,7 +316,7 @@ footer {
 .first {
     width: 100%;
     display: flex;
-    
+
     justify-content: space-between;
     /* justify-content: center; */
 }
@@ -331,7 +331,7 @@ footer {
 .media {
     display: flex;
     width: 15%;
-   justify-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -418,4 +418,5 @@ footer {
     /* width: 0%; */
     margin-right: 150px;
 }
+
 /* ------------------------------------------------- */

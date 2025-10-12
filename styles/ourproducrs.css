@@ -48,7 +48,7 @@ header {
     justify-content: space-between;
     display: flex;
     position: fixed;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 104px 0px 104px;
     top: 0;
     left: 0;
     z-index: 5;
@@ -226,7 +226,7 @@ footer {
 .div1 {
     height: fit-content;
     background-color: rgba(55, 70, 160, 1);
-    padding: 80px;
+    padding: 104px;
 }
 
 

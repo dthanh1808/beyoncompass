@@ -47,7 +47,7 @@ header {
     justify-content: space-between;
     display: flex;
     position: fixed;
-    padding: 0px 80px 0px 80px;
+    padding: 0px 104px 0px 104px;
     top: 0;
     left: 0;
     z-index: 5;
@@ -180,10 +180,12 @@ li {
 .list_item {
     /* height: 1050px; */
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 28px;
-    
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+    row-gap: 32px;
 }
 
 .item {
@@ -258,7 +260,7 @@ footer {
 .div1 {
     height: fit-content;
     background-color: rgba(55, 70, 160, 1);
-    padding: 80px;
+    padding: 104px;
 }
 
 
