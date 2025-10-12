@@ -95,7 +95,8 @@ header {
 }
 
 .logo {
-    width: 35%;
+    width: fit-content;
+    font-weight: 400px;
     display: flex;
     align-items: center;
     font-family: 'Righteous', sans-serif;
@@ -110,6 +111,7 @@ a {
 }
 
 .list {
+    width: fit-content;
     margin: 0;
     display: flex;
     align-items: end;
@@ -187,20 +189,20 @@ button {
 }
 
 .box2 {
-    width: fit-content;
+    width: 658px;
     margin-top: 96px;
 
-    margin-right: 208px;
-    height: fit-content;
+    right: 104px;
+    /* height: fit-content; */
     position: relative;
 
 
 }
 
 .circle3 {
-    margin-top: -80px;
-    margin-left: -75px;
-    position: relative;
+    top: 383px;
+    left: -70px;
+    position: absolute;
     z-index: 5;
 }
 
@@ -220,7 +222,7 @@ button {
     border: 3px solid #fff;
     position: absolute;
     top: 260px;
-    left: 361px;
+    right: 0;
     object-position: center;
     object-fit: cover;
 }
@@ -248,11 +250,12 @@ button {
 
 
 .img_big:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     box-shadow: 0 8px 20px #b2b9fd;
 }
 
 button {
-    border-radius: 40px;
-    padding: 12px;
+    margin-top: 32px;
+    border-radius: 100px;
+    padding: 16px;
 }
