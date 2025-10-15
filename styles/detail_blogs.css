@@ -22,24 +22,16 @@ body {
 
 }
 
-/* -------------------HEADER-------------- */
+
+/* ------------Header---------- */
+
 header {
     width: 100%;
     height: fit-content;
 
 }
 
-.bg {
-    width: 100%;
-    margin-top: 80px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../img/bg_blogs.jpg");
-    height: 320px;
-    object-position: center;
-    object-fit: cover;
-}
+
 
 .wrapper {
     height: 80px;
@@ -98,154 +90,112 @@ li {
     color: rgba(102, 102, 102, 1);
 }
 
-
-/* ---------------------------CONTAINER--------------- */
-
-.container {
-    background-color: white;
+/* -----------end header------ */
 
 
-
-}
-
-.mix_hxg {
-
-    position: absolute;
-    top: 14%;
-    left: 45%;
-    mix-blend-mode: multiply;
-}
-
-.hxg_big {
-    position: absolute;
-    bottom: -2%;
-    left: 2%;
-
-}
-
-.hxg_small {
-    position: absolute;
-    top: 53%;
-    right: 6%;
-}
-
-.hxg_border {
-    position: absolute;
-    top: 0%;
-    right: 2%;
-
+/* ---------------container--------- */
+.container{
+    width: 100%;
+    padding: 104px;
+   
 }
 
 
-.box1 {
-    height: fit-content;
-    background-color: rgba(235, 237, 238, 1);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding: 20px;
-    position: relative;
-}
 
-.box1 h1 {
-    color: rgba(42, 54, 124, 1);
-    font-weight: bold;
-    /* margin: 20px; */
-
-}
-
-.box1 h3 {
-    color: rgba(102, 102, 102, 1);
-    margin: 12px;
-}
-
-.box1 p {
-    color: rgba(102, 102, 102, 1);
-    margin: 0;
-}
-
-/* ------------------------------------ */
-
-.box2 {
-    margin-top: 60px;
-    
-    padding: 0 104px 0 104px;
-    /* display: flex; */
-
-
-
-}
-
-
-.blog1 {
+.container1{
     width: 100%;
     display: flex;
-    padding: 16px;
-    justify-content: space-between;
-    border-radius: 24px;
-    border: 2px solid rgba(235, 235, 235, 1);
-    /* margin-bottom: 80px; */
-    background-color: rgba(250, 250, 250, 1);
-
-}
-
-.blog1 .title {
-    width: 604.5px;
-    height: fit-content;
-    padding: 32px
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
     
+
+    
+
 }
 
-
-.blog1 button{
-    padding: 12px 16px 12px 16px;
-    border-radius: 100px;
-    background-color: rgba(77, 99, 226, 1);
-    color: white;
-    border: none;
+.container1 img{
+   width: 100%;
+}
+.container1 h1{
+    width: 860px;
+    font-size: 48px;
+    text-align: center;
 }
 
-.blog1 .picture {
-    width: fit-content
-        /* height: 100%; */
+.container1 p{
+    width: 100%;
+    font-size: 24px;
+    color: rgba(176, 176, 176, 1);
+    text-align: center;
 }
-
-.blog1 .picture img {
-    width: 604.5px;
-    height: 284px;
-    object-position: center;
-    object-fit: cover;
-    border-radius: 20px;
-}
-
-
-.box_new{
+.container2{
+    width: 100%;
     display: flex;
-    gap: 16px;
-    margin-top: 60px;
-}
-.box_new .btn{
-    
-    border-radius: 40px;
-    padding: 12px 16px 12px 16px;
-    border: 1px solid rgba(102, 102, 102, 1);
-    background-color: white;
-   
-
+    gap: 90px;
+     margin-bottom: 126px;
 }
 
-.btn p{
-    font-size: 16px;
-    margin:0;
-    font-weight:bold;
+.blog1{
+    width: 60%;
+
+    margin-top: 104px;
+}
+
+.blog1 h3{
+    font-size: 28px;
     color: rgba(59, 59, 59, 1);
+
 }
 
-.blog2 {
-    margin-top: 60px;
+.blog1 p{
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.blog1 img{
+    width: 100%;
+}
+.blog2{
+    margin-top: 104px;
+    width: 35%;
     height: fit-content;
+    padding: 20px 24px 20px 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(176, 176, 176, 1);
+   
+    
+}
 
+.blog2 h4{
+    font-size: 24px;
+    color: rgba(59, 59, 59, 1);
 
 }
+
+.blog2 h5{
+    display: flex;
+    align-items: center;
+    color: rgba(176, 176, 176, 1);
+    font-size: 17px;
+    margin-top: 10px;
+    
+
+    /* text-align: center; */
+
+}
+
+.div_text{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+
+.container3{
+
+}
+
 
 .list_blog2 {
     width: 100%;
@@ -263,7 +213,7 @@ li {
     height: fit-content;
     position: relative;
     border-radius: 24px;
-    
+
     overflow: hidden;
     border: 2px solid rgba(235, 235, 235, 1);
 
@@ -272,22 +222,21 @@ li {
 .list_blog2 .item img {
     width: 100%;
     height: 276px;
-    
+
     object-position: center;
     object-fit: cover;
 
 }
 
-.list_blog2 .item .title{
-  
+.list_blog2 .item .title {
+
     border-radius: 12px;
     background-color: white;
     padding: 16px;
     position: relative;
     bottom: 12px;
-   
-       overflow: hidden;
-    
+    overflow: hidden;
+
 }
 
 
@@ -305,17 +254,7 @@ li {
 
 }
 
-.tag{
-    width: fit-content;
-    height: fit-content;
-    text-align: center;
-    padding: 4px 8px 4px 8px ;
-    background-color: rgba(235, 235, 235, 1);
-    border-radius: 40px;
-
-}
-
-.div_text{
+.div_text {
     height: 24px;
     display: flex;
     align-items: center;
@@ -330,21 +269,10 @@ li {
 }
 
 
-.list_shape {
-    display: flex;
 
-}
 
-.list_shape .shape {
-    width: 32px;
-    height: 32px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 4px;
-    border-radius: 4px;
-    border: 2px solid rgba(176, 176, 176, 1);
-}
+
+/* ------------and container---------- */
 
 
 
@@ -355,11 +283,9 @@ li {
 
 
 
-/* ----------------------------------------------------- */
 
 
-
-/* --------------------FOOTER--------------- */
+/* -------------footer-------------- */
 footer {
     height: fit-content;
 
@@ -451,6 +377,8 @@ footer {
 
 }
 
+
+
 .doc p {
     margin: 0 0 15px 0;
     font-size: 14px;
@@ -491,3 +419,4 @@ footer {
 }
 
 /* ------------------------------------------------- */
+/* --------------end footer---------- */
