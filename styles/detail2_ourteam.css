@@ -9,6 +9,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
     overflow-y: auto;
+    background-color: white;
 
 
 }
@@ -16,14 +17,12 @@ body {
 
 /* section  */
 .section {
-    width: 100%;
     height: 100vh;
     background-color: white;
 
 }
 
 /* -------------------HEADER-------------- */
-
 header {
     width: 100%;
     height: fit-content;
@@ -36,7 +35,7 @@ header {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../img/bg_ourprd.jpg");
+    background-image: url("../img/bg_ourteam.jpg");
     height: 320px;
     object-position: center;
     object-fit: cover;
@@ -61,6 +60,7 @@ header {
     width: fit-content;
     font-weight: 400px;
     display: flex;
+    
     align-items: center;
     font-family: 'Righteous', sans-serif;
     font-size: 24px;
@@ -98,14 +98,15 @@ li {
     color: rgba(102, 102, 102, 1);
 }
 
+
 /* ---------------------------------------------------- */
 
 /* container */
 
 .container {
+    
     height: fit-content;
     background-color: white;
-    
 
 }
 
@@ -113,7 +114,7 @@ li {
     
     position: absolute;
     top: 1%;
-    left: 42%;
+    left: 44%;
     mix-blend-mode: multiply;
 }
 
@@ -170,33 +171,38 @@ li {
 
 .box2 {
     height: fit-content;
-    margin-top: 60px;
-    padding: 0 104px 0 104px;
-    background-color: white;
+    padding: 80px 104px 0px 104px;
+    /* display: flex; */
+
 
 }
 
 .list_item {
-    height: fit-content;
+    /* height: 1050px; */
     display: flex;
-    flex-wrap: wrap;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
     justify-content: space-between;
-   
+
+    row-gap: 32px;
 }
 
 .item {
-    width: 389.6666564941406px;
-    height: 424px;
-    margin-bottom: 44px;
-    
+    width: 389.33331298828125px;
+    height: fit-content;
+    padding: 16px;
+    border-radius: 24px;
+    background-color: white;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    /* border: 2px solid grey; */
 
 }
 
 .item img {
     width: 100%;
-    height: 260px;
-    border-radius: 20px;
-    margin: 0;
+    height: 221px;
+    border-radius: 24px;
     border: none;
     object-position: center;
     object-fit: cover;
@@ -204,11 +210,13 @@ li {
 
 .item h4 {
     color: rgba(77, 99, 226, 1);
-    /* margin: 10px 0 10px 0; */
-    margin: 0;
-    text-align: center;
+    margin: 10px 0 10px 0;
     font-size: 24px;
+    text-align: center;
 
+}
+.item h5{
+    font-size: 18px;
 }
 
 .item p {
@@ -216,10 +224,71 @@ li {
     font-size: 16px;
 }
 
+.box_add{
+    display: flex;
+    justify-content: flex-end;
+    margin: 60px 0 60px 0;
+
+}
+
+.list_shape{
+    display: flex;
+    
+
+}
+
+.list_shape .shape{
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 4px;
+    border-radius: 4px;
+    
+}
+
+
+
+.popup{
+        z-index: 9999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    height: 100%;
+    padding: 50px;
+    opacity: 0;
+    pointer-events: none;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+popup-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 16px;
+    width: 50%;
+    padding: 0 20px;
+    max-height: 90vh;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    z-index: 999;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
+
+
 
 /* --------------------FOOTER--------------- */
 footer {
     height: fit-content;
+ 
     color: white;
 }
 

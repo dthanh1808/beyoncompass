@@ -22,7 +22,8 @@ body {
 
 }
 
-/* -------------------HEADER-------------- */
+
+/* ------------Header---------- */
 
 header {
     width: 100%;
@@ -30,17 +31,7 @@ header {
 
 }
 
-.bg{
-    width: 100%;
-    margin-top: 80px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-image: url("../img/bg_ourprd.jpg");
-    height: 320px;
-    object-position: center;
-    object-fit: cover;
-}
+
 
 .wrapper {
     height: 80px;
@@ -61,6 +52,7 @@ header {
     width: fit-content;
     font-weight: 400px;
     display: flex;
+
     align-items: center;
     font-family: 'Righteous', sans-serif;
     font-size: 24px;
@@ -98,128 +90,147 @@ li {
     color: rgba(102, 102, 102, 1);
 }
 
-/* ---------------------------------------------------- */
-
-/* container */
-
-.container {
-    height: fit-content;
-    background-color: white;
-    
-
-}
-
-.mix_hxg{
-    
-    position: absolute;
-    top: 1%;
-    left: 42%;
-    mix-blend-mode: multiply;
-}
-
-.hxg_big{
-    position: absolute;
-    bottom: -2%;
-    left: 2%;
-
-}
-
-.hxg_small{
-    position: absolute;
-    top: 53%;
-    right: 6%;
-}
-
-.hxg_border{
-    position: absolute;
-    top: 0%;
-    right: 2%;
-    
-}
+/* -----------end header------ */
 
 
-
-.box1 {
-    height: fit-content;
-    background-color: rgba(235, 237, 238, 1);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
-    padding-bottom: 20px;
-    position: relative;
-}
-
-.box1 h1 {
-    color: rgba(42, 54, 124, 1);
-    font-weight: bold;
-    padding: 20px 0 0 0;
-    margin: 0;
-
-}
-
-.box1 h3 {
-    color: rgba(102, 102, 102, 1);
-    margin: 12px;
-}
-
-.box1 p {
-    color: rgba(102, 102, 102, 1);
-    margin: 0;
-}
-
-
-
-.box2 {
-    height: fit-content;
-    margin-top: 60px;
-    padding: 0 104px 0 104px;
-    background-color: white;
-
-}
-
-.list_item {
-    height: fit-content;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+/* ---------------container--------- */
+.container{
+    width: 100%;
+    padding: 104px;
    
 }
 
-.item {
-    width: 389.6666564941406px;
-    height: 424px;
-    margin-bottom: 44px;
+
+
+.container1{
+    width: 
+
+}
+
+.container2{
+    width: 100%;
+    display: flex;
+    gap: 90px;
+     margin-bottom: 126px;
+}
+
+.blog1{
+    width: 60%;
+
+    margin-top: 104px;
+}
+
+.blog1 h3{
+    font-size: 28px;
+    color: rgba(59, 59, 59, 1);
+
+}
+
+.blog1 p{
+    font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+}
+
+.blog1 img{
+    width: 100%;
+}
+.blog2{
+    margin-top: 104px;
+    width: 35%;
+    height: fit-content;
+    padding: 20px 24px 20px 24px;
+    border-radius: 12px;
+    border: 1px solid rgba(176, 176, 176, 1);
+   
+    
+}
+
+.blog2 h4{
+    font-size: 24px;
+    color: rgba(59, 59, 59, 1);
+
+}
+
+.blog2 h5{
+    display: flex;
+    align-items: center;
+    color: rgba(176, 176, 176, 1);
+    font-size: 17px;
+    margin-top: 10px;
     
 
+    /* text-align: center; */
+
 }
 
-.item img {
+.div_text{
+    display: flex;
+    align-items: center;
+}
+
+
+.container3{
+
+}
+
+.list_blog2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    justify-content: space-between;
+
+    row-gap: 32px;
+    height: fit-content;
+
+}
+
+.list_blog2 .item {
+    width: 389.6666564941406px;
+    height: fit-content;
+
+}
+
+.list_blog2 .item img {
     width: 100%;
     height: 260px;
-    border-radius: 20px;
-    margin: 0;
-    border: none;
     object-position: center;
     object-fit: cover;
-}
-
-.item h4 {
-    color: rgba(77, 99, 226, 1);
-    /* margin: 10px 0 10px 0; */
-    margin: 0;
-    text-align: center;
-    font-size: 24px;
 
 }
 
-.item p {
-    color: rgba(102, 102, 102, 1);
+.list_blog2 .item .title p {
+    margin: 12px 0 12px 0;
     font-size: 16px;
+    color: rgba(102, 102, 102, 1);
+
+}
+
+.list_blog2 .item .title h4 {
+    font-size: 24px;
+    margin: 12px 0 12px 0;
+
 }
 
 
-/* --------------------FOOTER--------------- */
+
+
+/* ------------and container---------- */
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------footer-------------- */
 footer {
     height: fit-content;
+
     color: white;
 }
 
@@ -244,7 +255,7 @@ footer {
 .first {
     width: 100%;
     display: flex;
-    
+
     justify-content: space-between;
     /* justify-content: center; */
 }
@@ -259,7 +270,7 @@ footer {
 .media {
     display: flex;
     width: 15%;
-   justify-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -346,3 +357,6 @@ footer {
     /* width: 0%; */
     margin-right: 150px;
 }
+
+/* ------------------------------------------------- */
+/* --------------end footer---------- */
