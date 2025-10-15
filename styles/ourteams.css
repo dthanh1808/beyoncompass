@@ -170,22 +170,27 @@ li {
 
 
 .box2 {
+    max-width: 1440px;
+    
+    margin: 0 auto;
     height: fit-content;
     padding: 80px 104px 0px 104px;
+    /* display: flex;
+    flex-wrap: wrap;
+    justify-content: center; */
     /* display: flex; */
 
 
 }
 
 .list_item {
-    /* height: 1050px; */
+      width: 100%;
     display: flex;
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    flex-wrap: wrap;
     justify-content: space-between;
+    height: fit-content;
+    gap: 20px;
 
-    row-gap: 32px;
 }
 
 .item {
