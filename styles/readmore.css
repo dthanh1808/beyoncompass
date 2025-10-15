@@ -108,9 +108,14 @@ li {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
+    
 
     
 
+}
+
+.container1 img{
+   width: 100%;
 }
 .container1 h1{
     width: 860px;
