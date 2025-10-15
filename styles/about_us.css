@@ -99,9 +99,10 @@ li {
 
 
 .container {
-    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
     height: fit-content;
-
+justify-content: center;
     display: flex;
     position: relative;
     align-items: center;
@@ -214,7 +215,7 @@ button{
     border-radius: 40px;
     padding: 12px;
     border: none;
-  
+  font-family: 'Roboto';
     color: white;
 }
 

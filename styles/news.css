@@ -16,6 +16,7 @@ body {
 
 /* section  */
 .section {
+    font-family: 'Roboto',sans-serif;
     width: 100%;
     height: 100vh;
     background-color: white;
@@ -30,7 +31,7 @@ header {
 }
 
 .bg {
-    width: 100%;
+    width: 100vw;
     margin-top: 80px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -103,6 +104,10 @@ li {
 
 .container {
     background-color: white;
+    max-width: 1440px;
+    
+    margin: 0 auto;    
+   
 
 
 
@@ -138,10 +143,12 @@ li {
 
 
 .box1 {
+    
     height: fit-content;
     background-color: rgba(235, 237, 238, 1);
     font-family: 'Roboto', sans-serif;
     text-align: center;
+    margin: 0;
     padding: 20px;
     position: relative;
 }
@@ -215,16 +222,15 @@ li {
 
 .list_blog2 {
     width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, auto);
+    display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-
-    row-gap: 32px;
     height: fit-content;
 
 }
 
 .list_blog2 .item {
+    font-family: 'Roboto',sans-serif;
     width: 389.6666564941406px;
     height: fit-content;
 
@@ -246,6 +252,7 @@ li {
 }
 
 .list_blog2 .item .title h4 {
+    font-family: 'Roboto',sans-serif;
     font-size: 24px;
     margin: 12px 0 12px 0;
 
