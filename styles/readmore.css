@@ -133,8 +133,8 @@ li {
 .container2{
     width: 100%;
     display: flex;
-    gap: 90px;
-     margin-bottom: 126px;
+    gap: 100px;
+    margin-bottom: 126px;
 }
 
 .blog1{
