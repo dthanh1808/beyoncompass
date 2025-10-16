@@ -103,6 +103,7 @@ li {
 /* container */
 
 .container {
+   
     height: fit-content;
     background-color: white;
     
@@ -169,6 +170,8 @@ li {
 
 
 .box2 {
+     max-width: 1440px;
+    margin: 0 auto;
     height: fit-content;
     margin-top: 60px;
     padding: 0 104px 0 104px;
